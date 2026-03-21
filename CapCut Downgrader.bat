@@ -1,6 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
 
+title CapCut Downgrader - %TARGET_VER%
+echo CapCut Downgrader
+echo Downgrading to: %TARGET_VER%
+echo.
 echo Checking CapCut installation...
 
 :: Define paths
@@ -9,11 +13,6 @@ set "APPS_DIR=%CAPCUT_DIR%\Apps"
 set "TARGET_VER=1.4.0.198"
 set "DOWNLOAD_FOLDER_DIR=%USERPROFILE%\Downloads"
 set "BACKUP_EXE=%CAPCUT_DIR%\backup.exe"
-
-title CapCut Downgrader - %TARGET_VER%
-echo CapCut Downgrader
-echo Downgrading to: %TARGET_VER%
-echo.
 
 :: =========================
 :: CHECK IF APPS EXISTS
